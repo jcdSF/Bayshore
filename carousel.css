@@ -3,11 +3,31 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
+  background: #f7f7f7;
+  font-family: 'Domine', serif;
+  font-weight: 400;
+
 }
 
-
+h1, h2, h3, h4, h5 {
+  font-family: 'Droid Sans', sans-serif;
+}
+h1 {
+  font-size: 5.5em;
+}
+hr.divider {
+  background-color: #808082;
+  height: 2px;
+  width: 30%;
+  margin: 30px auto;
+  border-top: none;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #002c54;
+  border-color: #002c54;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -42,6 +62,7 @@ body {
   height: 500px;
   margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -59,37 +80,78 @@ body {
   min-width: 100%;
   height: 500px;
 }
+.carousel h1, h3, hr {
+  color: #fff;
+}
+.carousel h1 {
+  text-shadow: 1px 1px 1px #000;
+  font-weight: bold;  
+}
+.carousel hr.divider {
+  background-color: #fff;
+  height: 2px;
+  width: 280px;
+  margin: 30px auto;
+}
+.carousel-caption h3 {
+  text-shadow: none;
+  font-size: 1.65em;
+}
+div .carousel-inner {
+  border-bottom: 4px solid #aaa;
+}
 
 
-/* MARKETING CONTENT
+/* SERVICES CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.services .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: normal;
+.services h4 {
+  font-weight: bold;
+  color: #002c54;
 }
-.marketing .col-lg-4 p {
+.services .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
 
 
-/* Featurettes
+/* About
 ------------------------- */
 
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+.about {
+  background: white;
+  border-bottom:4px solid #aaa;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.about-image {
+  box-shadow: 2px 2px 5px #888888;
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
+.about-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+/* Footer
+------------------------- */
+
+footer {
+  color: white;
+  background: #333;
+  padding-top: 1em;
+  padding-bottom: .2em;
+}
+footer p {
+    font-size: .8em;
 }
 
 
@@ -122,14 +184,14 @@ body {
     line-height: 1.4;
   }
 
-  .featurette-heading {
+  .about-heading {
     font-size: 50px;
   }
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
+  .about-heading {
+    margin-top: 50px;
   }
 }
 
