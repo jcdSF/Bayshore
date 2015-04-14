@@ -24,207 +24,79 @@
     <!-- Custom styles -->
     <link href="carousel.css" rel="stylesheet">
   </head>
-  
+
   <body>
-  <!-- NAVBAR
-================================================== -->
-<!--
-    <div class="navbar-wrapper">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>
--->
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <!-- Indicators -->
-<!--
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
--->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="img/hero-bg-c.jpeg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <img src="img/logo-plain.png">
-              <h1 class="text-uppercase">Bayshore Consulting</h1>
-              <hr class="divider" />
-              <h3 class="text-uppercase">supporting you through every stage of the boardroom process</h3>
-              <h4><a class="btn btn-lg btn-default" href="#" role="button">Get In Touch <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></h4>
-            </div>
-          </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logo Here?</a>
         </div>
-        <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
             </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
             </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div><!--/container -->
+    </nav>
 
+    <!-- Main jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <img src="img/logo-plain.png">
+        <h1 class="text-uppercase">Bayshore Consulting</h1>
+        <hr class="divider" />
+        <h3 class="text-uppercase">supporting you through every stage of the boardroom process</h3>
+        <h4><a class="btn btn-lg btn-default" href="#about" role="button">Get In Touch <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></h4>
+      </div><!-- /container -->
+    </div><!-- /jumbotron -->
 
-    <!-- Services, about and contact
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container services">
+    <div class="container">
       <h2 class="text-center text-uppercase">Services</h2>
-      <hr class="divider" /> 
-      <!-- Three columns of text below the carousel -->
+      <hr class="divider" />
       <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="strategic planning" width="140" height="140">
+        <div class="col-md-4">
           <h4 class="text-uppercase">Strategic Planning</h4>
           <p>We help boards and executive teams devise and articulate a clear, ambitious and compelling purpose, direction and business model for the organization, as well as align roles with business strategies and operating structures.</p>
           <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
+        </div>
+        <div class="col-md-4">
           <h4 class="text-uppercase">Board Governance Development</h4>
           <p>When boards, CEOs and leadership teams thrive, entire organizations succeed with them. But the effectiveness of your leadership team may be endangered by such issues as personal differences, lack of strategic alignment or failures of structure and governance.</p>
           <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
+       </div>
+        <div class="col-md-4">
           <h4 class="text-uppercase">Board Best Practices</h4>
           <p>Forward-looking boards should move ‘beyond compliance’ and focus on behavioral and relationship issues that shape board dynamics and drive board and organizational performance.</p>
           <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h4 class="text-uppercase">Talent Retention</h4>
-          <p>“Employee engagement illustrates the commitment and energy that employees bring to work and is a key indicator of their involvement and dedication to the organization. Employees who are engaged are more productive, content and more likely to be loyal to an organization.”</p>
-          <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h4 class="text-uppercase">Succssion Planning</h4>
-          <p>Succession decisions are critical in sustaining organizational performance and success, yet the quality of the planning processes and approaches that underpin these decisions vary enormously.</p>
-          <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h4 class="text-uppercase">Executive Recruitment</h4>
-          <p>As he works with you to develop candidate profiles, Larry will help you weigh not only the immediate challenges of the role, but also your overall strategic objectives and the corresponding opportunities to enhance diversity and inclusion.</p>
-          <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h4 class="text-uppercase">Birkman Method Assessment</h4>
-          <p>How will your executives perform under pressure? What are the natural strengths within the team?  What are the team’s potential blind spots?</p>
-          <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h4 class="text-uppercase">Onboarding</h4>
-          <p>For newly appointed senior executives, the first few weeks and months in the role are critical. Our Onboarding service speeds your new executive’s journey to full impact.</p>
-          <h5><a class="btn btn-default" href="#" role="button">View details &raquo;</a></h5>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/profile_pic.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h4 class="text-uppercase">Executive Coaching</h4>
-          <p>Few factors have such a direct impact on an organization’s long-term growth and success as the quality of its leadership.</p>
-          <h5><a href="#">&mdash; Read More &mdash;</a></h5>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-      
-      <!-- START ABOUT -->
-      <h2 class="text-center text-uppercase">About</h2>
-      <hr class="divider" />
-      
-      <div class="row about">
-        <div class="col-md-7">
-          <h2 class="about-heading">Help Me Help You. <span class="text-muted">You'll be glad you did.</span></h2>
-          <p class="lead">Larry Nelson is a guy who takes board governance very seriously. Super sriously.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="about-image img-responsive center-block img-circle" src="img/profile_pic.jpg" alt="Larry Nelson">
         </div>
       </div>
-      <!-- /END ABOUT -->
 
+      <hr>
 
-      <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Bayshore Consulting, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; Bayshore Consulting, Inc. 2015</p>
       </footer>
-
-    </div><!-- /.container -->
+    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
-
