@@ -17,7 +17,7 @@ h1 {
 hr.divider {
   background-color: #808082;
   height: 2px;
-  width: 30%;
+  width: 20%;
   margin: 30px auto;
   border-top: none;
 }
@@ -63,7 +63,7 @@ hr.divider {
   font-weight: bold;  
 }
 .jumbotron hr.divider {
-  background-color: #fff;
+  background-color: #404040;
   height: 2px;
   width: 280px;
   margin: 30px auto;
@@ -78,28 +78,24 @@ div.jumbotron {
 }
 
 
-/* SERVICES CONTENT
+/* SERVICES
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.services .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
 .services h4 {
   font-weight: bold;
   color: #002c54;
 }
+/*
 .services .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
+*/
 
+/* ABOUT
+-------------------------------------------------- */
 
-/* About
-------------------------- */
-
-.container.about {
+.about {
   background: white;
   border-bottom:4px solid #aaa;
   padding-top: 40px;
@@ -110,23 +106,16 @@ div.jumbotron {
   box-shadow: 2px 2px 5px #888888;
 }
 
-/* Thin out the marketing headings */
-.about-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
 /* Footer
 ------------------------- */
 
-footer {
+.footer {
   color: white;
   background: #333;
   padding-top: 1em;
   padding-bottom: .2em;
 }
-footer p {
+.footer p {
     font-size: .8em;
 }
 
