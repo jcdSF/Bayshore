@@ -91,7 +91,9 @@ div.jumbotron {
   margin-left: 10px;
 }
 */
-
+.services a.btn.btn-default {
+  border: none;
+}
 /* ABOUT
 -------------------------------------------------- */
 
