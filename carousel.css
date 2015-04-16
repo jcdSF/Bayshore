@@ -43,6 +43,7 @@ hr.divider {
 .navbar-nav>li>a {
   font-family: 'Droid Sans', sans-serif; 
 }
+.navbar-brand img {max-height: 150px;}
 
 
 /* CUSTOMIZE THE Jumbotron
