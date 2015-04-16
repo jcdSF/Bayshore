@@ -25,7 +25,7 @@
     <link href="carousel.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
 
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
@@ -42,9 +42,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Services <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#services">Services <span class="sr-only">(current)</span></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div><!--/container -->
@@ -57,13 +57,12 @@
         <h1 class="text-uppercase text-center">Bayshore Consulting</h1>
         <hr class="divider" />
         <h3 class="text-uppercase text-center">supporting you through every stage of the boardroom process</h3>
-        <h4 class="text-center"><a class="btn btn-lg btn-default" href="#contact" role="button">Get In Touch <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a></h4>
       </div><!-- /container -->
     </div><!-- /jumbotron -->
 
     <!-- Services
     ================================================== -->
-    <div class="container-fluid services">
+    <div class="container-fluid services" id="services">
       <div class="container">
         <h2 class="text-center text-uppercase">Services</h2>
         <hr class="divider" />
@@ -150,7 +149,7 @@
     
     <!-- About
     ================================================== -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase">About</h2>
         <hr class="divider" />
