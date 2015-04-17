@@ -1,5 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
 body {
   color: #5a5a5a;
@@ -32,6 +37,10 @@ hr.divider {
 /* NAVBAR
 -------------------------------------------------- */
 
+.navbar-nav>li>a {
+  font-family: 'Droid Sans', sans-serif; 
+}
+
 /* active styles */
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
@@ -39,16 +48,18 @@ hr.divider {
   color: #fff;
   background-color: #002c54;
 }
-
-.navbar-nav>li>a {
-  font-family: 'Droid Sans', sans-serif; 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #002c54;
+  background-color: transparent;
 }
+
 .navbar-brand img {max-height: 150px;}
 
 
 /* CUSTOMIZE THE Jumbotron
 -------------------------------------------------- */
-.jumbotron h1, h3, hr {
+.jumbotron h1, h2, hr {
   color: #fff;
 }
 .jumbotron h1 {
@@ -61,9 +72,9 @@ hr.divider {
   height: 2px;
   width: 280px;
 }
-.jumbotron h3 {
+.jumbotron h2 {
   text-shadow: none;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   line-height: 4rem;
 }
 div.jumbotron {
@@ -74,6 +85,24 @@ div.jumbotron {
 
 /* SERVICES
 -------------------------------------------------- */
+.custom-container-large {
+    max-width: 100%;
+}
+@media (min-width: 768px) {
+    .custom-container-large {
+        width: 960px;
+    }
+}
+@media (min-width: 992px) {
+    .custom-container-large {
+        width: 1070px;
+    }
+}
+@media (min-width: 1200px) {
+    .custom-container-large {
+        width: 1300px;
+    }
+}
 
 .services h4 {
   font-weight: bold;
