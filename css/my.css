@@ -117,6 +117,9 @@ div.jumbotron {
 .services a.btn.btn-default {
   border: none;
 }
+div#services {
+  padding-bottom: 40px;
+}
 
 /* ABOUT
 -------------------------------------------------- */
@@ -162,8 +165,14 @@ span.fa {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+span.rwd-line{
+   display: block;
+}
 
 @media (min-width: 768px) {
+  span.rwd-line{
+   display: inline;
+  }  
   .jumbotron .container{
     padding-top: 75px;
     padding-bottom: 50px;
