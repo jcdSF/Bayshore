@@ -20,7 +20,7 @@ hr.divider {
   background-color: #808082;
   height: 2px;
   width: 8%;
-  margin: 30px auto;
+  margin: 30px auto 50px auto;
   border-top: none;
 }
 .btn-default:hover {
@@ -60,14 +60,14 @@ hr.divider {
   background-color: #fff;
   height: 2px;
   width: 280px;
-  margin: 30px auto;
 }
 .jumbotron h3 {
   text-shadow: none;
   font-size: 2.4rem;
+  line-height: 4rem;
 }
 div.jumbotron {
-  background: url(img/hero-bg-c.jpeg) center center/cover no-repeat;
+  background: url(../img/hero-bg.jpeg) top center/cover no-repeat;
   border-bottom: 4px solid #aaa;
 }
 
@@ -112,7 +112,12 @@ div.jumbotron {
 span.fa {
   color: #002c54;
 }
-
+.contact a {
+  color: #002c54;
+}
+.contact a:hover {
+  color: #5a5a5a;
+}
 /* FOOTER
 -------------------------------------------------- */
 .footer {
