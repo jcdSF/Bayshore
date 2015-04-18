@@ -140,6 +140,13 @@ div#services {
   background: #a7986c;
   padding-top: 40px;
   padding-bottom: 60px;
+  color: #404040
+}
+.contact h3 {
+  color: #fff;
+}
+.contact hr {
+  background-color: #fff;
 }
 span.fa {
   color: #002c54;
