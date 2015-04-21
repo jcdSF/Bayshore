@@ -7,9 +7,10 @@
 @viewport           { width: device-width; }
 
 body {
-  color: #5a5a5a;
-  background: #f7f7f7;
   font-family: 'Domine', serif;
+  line-height: 1.8;
+  color: #5a5a5a;
+  background-color: #f7f7f7;
   font-weight: 400;
   position: relative;
 }
@@ -20,6 +21,9 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
   font-size: 5.5em;
+}
+h3 {
+  color: #333;
 }
 hr.divider {
   background-color: #808082;
@@ -132,6 +136,7 @@ div#services {
 
 .about-image {
   box-shadow: 2px 2px 5px #888888;
+  margin: 0 20px 10px 0;
 }
 
 /* CONTACT
@@ -154,9 +159,11 @@ span.fa {
 .contact a {
   color: #002c54;
 }
-.contact a:hover {
-  color: #5a5a5a;
+.contact a.btn.btn-default {
+  border: none;
 }
+
+
 /* FOOTER
 -------------------------------------------------- */
 .footer {
