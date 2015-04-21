@@ -82,7 +82,7 @@ hr.divider {
   line-height: 4rem;
 }
 div.jumbotron {
-  background: url(../img/hero-bg.jpeg) top center/cover no-repeat;
+  background: url(../img/hero-bg.jpeg) center center/cover no-repeat;
   border-bottom: 4px solid #aaa;
 }
 
@@ -108,7 +108,7 @@ div.jumbotron {
     }
 }
 
-.services h4 {
+.services h4, .modal-title.services {
   font-weight: bold;
   color: #002c54;
 }
@@ -118,7 +118,7 @@ div.jumbotron {
   margin-left: 10px;
 }
 */
-.services a.btn.btn-default {
+.services .btn.btn-default {
   border: none;
 }
 div#services {
