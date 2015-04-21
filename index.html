@@ -43,9 +43,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="text-uppercase"><a href="#services">Services</a></li>
+            <li class="text-uppercase"><a href="#about">About</a></li>
+            <li class="text-uppercase"><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div><!--/container -->
@@ -63,6 +63,26 @@
     
     <!-- Services
     ================================================== -->
+    
+    <!-- Services Modals
+    ==================== -->
+    <div class="modal fade" id="spModal" role="dialog" tabindex="-1" aria-labelledby="Strategic Planing" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Strategic Planning</h4>
+          </div>
+          <div class="modal-body">
+            <p>We help boards and executive teams devise and articulate a clear, ambitious and compelling purpose, direction and business model for the organization, as well as align roles with business strategies and operating structures.</p>
+            <p>We help boards and executive teams devise and articulate a clear, ambitious and compelling purpose, direction and business model for the organization, as well as align roles with business strategies and operating structures.</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- End Services Modals
+    ======================== -->
+    
     <div class="container-fluid services" id="services">
       <div class="container custom-container-large">
         <h3 class="text-center text-uppercase">Services</h3>
@@ -76,7 +96,7 @@
               <div class="panel-body">
                 <p>We help boards and executive teams devise and articulate a clear, ambitious and compelling purpose, direction and business model for the organization, as well as align roles with business strategies and operating structures.</p>
                 <br />
-                <h5><a class="btn btn-default" href="#" role="button">Read More &raquo;</a></h5>
+                <h5><a class="btn btn-default" data-toggle="modal" href="#spModal" role="button">Read More &raquo;</a></h5>
               </div>
             </div><!-- /panel -->
           </div><!-- /col -->
@@ -218,8 +238,8 @@
             <span class="fa fa-envelope fa-3x pull-left"></span>
             <address>
               <strong>Bayshore Consulting, Inc.</strong><br>
-              795 Folsom Ave, Suite 600<br>
-              San Francisco, CA 94107<br>
+              1477 W. Pender St., Suite 401<br>
+              Vancouver, BC, V94107<br>
             </address>   
           </div>
           <div class="col-sm-4 clearfix">
