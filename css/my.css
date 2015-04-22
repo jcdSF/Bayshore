@@ -19,9 +19,6 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Droid Sans', sans-serif;
 }
-h1 {
-  font-size: 5.5em;
-}
 h3 {
   color: #333;
 }
@@ -67,7 +64,7 @@ hr.divider {
   color: #fff;
 }
 .jumbotron h1 {
-  font-size: 8rem;
+  font-size: 4.4em;
   text-shadow: 1px 1px 1px #000;
   font-weight: bold;  
 }
@@ -195,7 +192,10 @@ span.rwd-line{
   .jumbotron .container{
     padding-top: 75px;
     padding-bottom: 50px;
-    }
+  }
+  .jumbotron h1 {
+  font-size: 6em;
+  }
   .about-image {
     margin: 10px 0 10px 20px;
     float: right;
