@@ -136,7 +136,7 @@ div#services {
 
 .about-image {
   box-shadow: 2px 2px 5px #888888;
-  max-height: 600px;
+  margin-bottom: 20px;
 }
 
 /* CONTACT
@@ -180,10 +180,14 @@ span.fa {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
 span.rwd-line{
    display: block;
 }
 
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   span.rwd-line{
    display: inline;
@@ -194,6 +198,8 @@ span.rwd-line{
     }
   .about-image {
     margin: 10px 0 10px 20px;
+    float: right;
+    max-height: 600px;
   }
 }
 
@@ -201,6 +207,7 @@ span.rwd-line{
     font-size: ;
   }
 
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .about-heading {
     margin-top: ;
