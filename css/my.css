@@ -136,7 +136,6 @@ div#services {
 
 .about-image {
   box-shadow: 2px 2px 5px #888888;
-  margin: 10px 0 10px 20px;
   max-height: 600px;
 }
 
@@ -180,6 +179,7 @@ span.fa {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
 span.rwd-line{
    display: block;
 }
@@ -191,13 +191,15 @@ span.rwd-line{
   .jumbotron .container{
     padding-top: 75px;
     padding-bottom: 50px;
-    } 
+    }
+  .about-image {
+    margin: 10px 0 10px 20px;
   }
+}
 
   .about-heading {
     font-size: ;
   }
-}
 
 @media (min-width: 992px) {
   .about-heading {
