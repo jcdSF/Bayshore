@@ -59,7 +59,7 @@ hr.divider {
 
 /* CUSTOMIZE THE Jumbotron
 -------------------------------------------------- */
-.jumbotron .container .visible-xs-block {
+.jumbotron .container img.visible-xs-block{
   margin:30px auto 0 auto;
 }
 .jumbotron h1, h2, hr {
