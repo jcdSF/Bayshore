@@ -21,11 +21,13 @@ h1, h2, h3, h4, h5 {
 }
 h3 {
   color: #333;
+  text-shadow: 1px 1px 1px #aeaeae;
+  letter-spacing: .09em;
 }
 hr.divider {
   background-color: #808082;
   height: 2px;
-  width: 8%;
+  width: 7%;
   margin: 30px auto 50px auto;
   border-top: none;
 }
@@ -55,16 +57,19 @@ hr.divider {
   background-color: transparent;
 }
 
-
 /* CUSTOMIZE THE Jumbotron
 -------------------------------------------------- */
+.jumbotron .container .visible-xs-block {
+  margin:30px auto 0 auto;
+}
 .jumbotron h1, h2, hr {
   color: #fff;
 }
 .jumbotron h1 {
   font-size: 4.4em;
   text-shadow: 1px 1px 1px #000;
-  font-weight: bold;  
+  font-weight: bold; 
+  
 }
 .jumbotron hr.divider {
   background-color: #fff;
@@ -72,9 +77,10 @@ hr.divider {
   width: 280px;
 }
 .jumbotron h2 {
-  text-shadow: none;
+  text-shadow: 1px 1px 1px #aeaeae;
   font-size: 2.3rem;
   line-height: 4rem;
+  letter-spacing: .04em;
 }
 div.jumbotron {
   background: url(../img/hero-bg.jpeg) center center/cover no-repeat;
@@ -192,7 +198,8 @@ span.rwd-line{
     padding-bottom: 50px;
   }
   .jumbotron h1 {
-  font-size: 6em;
+    font-size: 5.8em;
+    letter-spacing: .03em;
   }
   .about-image {
     margin: 10px 0 10px 20px;
