@@ -167,7 +167,10 @@ hr.adr {
   border: 0;
   border-bottom: 1px dashed #ccc;
   background: #aeaeae;
-} 
+}
+div.map {
+    margin-bottom: 20px;
+}
 
 /* FOOTER
 -------------------------------------------------- */
@@ -212,6 +215,9 @@ span.rwd-line{
     margin: 10px 0 10px 20px;
     float: right;
     max-height: 600px;
+  }
+  div.map {
+    margin-bottom: 0;
   }
 }
 
