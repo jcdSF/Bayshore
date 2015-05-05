@@ -36,12 +36,20 @@ hr.divider {
   background-color: #002c54;
   border-color: #002c54;
 }
+a {
+  text-decoration: underline;
+}
 
 /* NAVBAR
 -------------------------------------------------- */
+.navbar-brand {
+  text-decoration: none;
+  font-family: 'Droid Sans', sans-serif;
+}
 
 .navbar-nav>li>a {
-  font-family: 'Droid Sans', sans-serif; 
+  font-family: 'Droid Sans', sans-serif;
+  text-decoration: none;
 }
 
 /* active styles */
@@ -139,7 +147,7 @@ div#services {
   box-shadow: 2px 2px 5px #888888;
   margin-bottom: 20px;
 }
-
+.about a:hover {text-decoration: none;}
 /* CONTACT
 -------------------------------------------------- */
 .contact {
@@ -170,6 +178,7 @@ hr.adr {
 }
 div.map {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* FOOTER
@@ -216,9 +225,6 @@ span.rwd-line{
     float: right;
     max-height: 600px;
   }
-  div.map {
-    margin-bottom: 0;
-  }
 }
 
   .about-heading {
@@ -227,8 +233,9 @@ span.rwd-line{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .about-heading {
-    margin-top: ;
+  div.map {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 
