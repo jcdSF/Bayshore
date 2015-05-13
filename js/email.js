@@ -1,4 +1,4 @@
-// Email.js version 5
+// Email.js version 5, from www.bronze-age.com/nospam
 var tld_ = new Array()
 tld_[0] = "com";
 tld_[1] = "org";
