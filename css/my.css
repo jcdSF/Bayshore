@@ -168,6 +168,8 @@ i {
 .contact a {
   color: #002c54;
 }
+.contact a:hover {text-decoration: none;}
+
 .contact a.btn.btn-default {
   border: none;
 }
