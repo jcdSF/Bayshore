@@ -25,7 +25,7 @@ h3 {
   letter-spacing: .09em;
 }
 hr.divider {
-  background-color: #808082;
+  background-color: #333;
   height: 2px;
   width: 7%;
   margin: 30px auto 50px auto;
@@ -70,22 +70,16 @@ a {
 .jumbotron .container img.visible-xs-block{
   margin:30px auto 0 auto;
 }
-.jumbotron h1, h2, hr {
-  color: #fff;
-}
 .jumbotron h1 {
+  color: #002c54;
   font-size: 4rem;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #a7986c;
   font-weight: bold; 
   
 }
-.jumbotron hr.divider {
-  background-color: #fff;
-  height: 2px;
-  width: 280px;
-}
 .jumbotron h2 {
-  text-shadow: 1px 1px 1px #aeaeae;
+  color: #fff;
+  text-shadow: 1px 1px 1px #a7986c;
   font-size: 2rem;
   line-height: 4rem;
   letter-spacing: .04em;
