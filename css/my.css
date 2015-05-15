@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
 }
 h3 {
   color: #333;
-  text-shadow: 1px 1px 1px #aeaeae;
+  text-shadow: 1px 1px 1px #aeaeae; /* color, h-offset, v-offset, blur */
   letter-spacing: .09em;
 }
 hr.divider {
@@ -91,7 +91,7 @@ a {
   letter-spacing: .04em;
 }
 div.jumbotron {
-  background: url(../img/hero-bg.jpeg) center center/cover no-repeat;
+  background: url(../img/hero-bg8.jpg) top center/cover no-repeat;
   border-bottom: 4px solid #aaa;
 }
 
