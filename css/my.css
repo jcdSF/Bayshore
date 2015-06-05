@@ -144,6 +144,8 @@ div#services {
   margin-bottom: 20px;
 }
 .about a:hover {text-decoration: none;}
+
+
 /* CONTACT
 -------------------------------------------------- */
 .contact {
@@ -188,7 +190,8 @@ div.map {
   padding-bottom: .2em;
 }
 .footer p {
-    font-size: .8em;
+  font-size: .8em;
+  color: #777;
 }
 
 
